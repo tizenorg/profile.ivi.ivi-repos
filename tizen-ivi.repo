@@ -1,0 +1,6 @@
+[tizen-ivi]
+name=tizen-ivi
+type=rpm-md
+baseurl=http://download.tizen.org/previews/ivi/latest/repos/tzivi/ia32/packages/?ssl_verify=no
+gpgcheck=0
+enabled=1
