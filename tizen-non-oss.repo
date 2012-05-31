@@ -1,6 +1,6 @@
 [tizen-non-oss]
 name=tizen-non-oss
 type=rpm-md
-baseurl=http://download.tizen.org/previews/ivi/latest/repos/non-oss/ia32/packages/?ssl_verify=no
+baseurl=https://download.tz.otcshare.org/snapshots/trunk/ivi/latest/repos/non-oss/ia32/packages/?ssl_verify=no
 gpgcheck=0
 enabled=1

@@ -1,6 +1,6 @@
 [tizen-base]
 name=tizen-base
 type=rpm-md
-baseurl=http://download.tizen.org/previews/ivi/latest/repos/tzbase/ia32/packages/?ssl_verify=no
+baseurl=https://download.tz.otcshare.org/snapshots/trunk/ivi/latest/repos/base/ia32/packages/?ssl_verify=no
 gpgcheck=0
 enabled=1
