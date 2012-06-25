@@ -1,3 +1,6 @@
+* Mon Jun 25 21:00:13 UTC 2012 - tracy.graydon@intel.com
+- Change the non-oss repo url to point to correct location. i.e. common, not ivi 
+
 * Thu May 31 2012 Prajwal Mohan <prajwal.karur.mohan@intel.com>
 - Updating repos
 
