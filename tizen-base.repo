@@ -4,3 +4,16 @@ type=rpm-md
 baseurl=https://download.tz.otcshare.org/snapshots/trunk/ivi/latest/repos/base/ia32/packages/?ssl_verify=no
 gpgcheck=0
 enabled=1
+
+[tizen-base-debuginfo]
+name=tizen-base-debuginfo
+baseurl=https://download.tz.otcshare.org/snapshots/trunk/ivi/latest/repos/base/ia32/debug/?ssl_verify=no
+gpgcheck=0
+enabled=0
+
+[tizen-base-source]
+name=tizen-base-source
+baseurl=https://download.tz.otcshare.org/snapshots/trunk/ivi/latest/repos/base/source/?ssl_verify=no
+gpgcheck=0
+enabled=0
+

@@ -4,3 +4,16 @@ type=rpm-md
 baseurl=https://download.tz.otcshare.org/snapshots/trunk/common/latest/repos/non-oss/ia32/packages/?ssl_verify=no
 gpgcheck=0
 enabled=1
+
+[tizen-non-oss-debuginfo]
+name=tizen-non-oss-debuginfo
+baseurl=https://download.tz.otcshare.org/snapshots/trunk/common/latest/repos/non-oss/ia32/debug/?ssl_verify=no
+gpgcheck=0
+enabled=0
+
+[tizen-non-oss-source]
+name=tizen-non-oss-source
+baseurl=https://download.tz.otcshare.org/snapshots/trunk/common/latest/repos/non-oss/source/?ssl_verify=no
+gpgcheck=0
+enabled=0
+
