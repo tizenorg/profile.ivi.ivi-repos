@@ -3,7 +3,7 @@ name=tizen-base
 type=rpm-md
 baseurl=https://download.tizen.org/snapshots/2.0alpha/ivi/latest/repos/ivi-non-oss/ia32/packages/?ssl_verify=no
 gpgcheck=0
-enabled=1
+enabled=0
 
 [tizen-non-oss-debuginfo]
 name=tizen-base-debuginfo
