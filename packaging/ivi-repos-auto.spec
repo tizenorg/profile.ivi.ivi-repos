@@ -1,6 +1,6 @@
 Name:       ivi-repos-auto
-Summary:    Tizen IVI Repos Auto
-Version:    1
+Summary:    Tizen IVI 1.0 Repos Auto
+Version:    2
 Release:    1
 Group:      System/Libraries
 License:    LGPLv2.1

@@ -1,18 +1,18 @@
 [tizen-non-oss]
-name=tizen-base
+name=tizen-non-oss
 type=rpm-md
-baseurl=https://download.tizen.org/snapshots/2.0alpha/ivi/latest/repos/ivi-non-oss/ia32/packages/?ssl_verify=no
+baseurl=https://download.tizen.org/snapshots/trunk/ivi/latest/repos/ivi-non-oss/ia32/packages/?ssl_verify=no
 gpgcheck=0
-enabled=0
+enabled=1
 
 [tizen-non-oss-debuginfo]
-name=tizen-base-debuginfo
-baseurl=https://download.tizen.org/snapshots/2.0alpha/ivi/latest/repos/ivi-non-oss/ia32/packages/?ssl_verify=no
+name=tizen-non-oss-debuginfo
+baseurl=https://download.tizen.org/snapshots/trunk/ivi/latest/repos/ivi-non-oss/ia32/debug/?ssl_verify=no
 gpgcheck=0
 enabled=0
 
 [tizen-non-oss-source]
-name=tizen-base-source
-baseurl=https://download.tizen.org/snapshots/2.0alpha/ivi/latest/repos/ivi-non-oss/ia32/packages/?ssl_verify=no
+name=tizen-non-oss-source
+baseurl=https://download.tizen.org/snapshots/trunk/ivi/latest/repos/ivi-non-oss/source/?ssl_verify=no
 gpgcheck=0
 enabled=0
