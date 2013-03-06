@@ -1,6 +1,6 @@
-Name:       ivi-repos-auto
-Summary:    Tizen IVI 1.0 Repos Auto
-Version:    2
+Name:       ivi-repos
+Summary:    Tizen 2.0 IVI Repos
+Version:    1
 Release:    1
 Group:      System/Libraries
 License:    LGPLv2.1
@@ -8,7 +8,7 @@ URL:        http://www.tizen.org
 Source0:    %{name}-%{version}.tar.bz2
 
 %description
-This package installs the .repo files for Tizen IVI automotive images
+This package installs the .repo files for Tizen 2.0 IVI images
 
 %prep
 %setup -q -n %{name}-%{version}
@@ -20,7 +20,6 @@ rm -rf %{buildroot}
 install -d %{buildroot}/etc/zypp/repos.d
 install -m 0755 tizen-base.repo %{buildroot}/etc/zypp/repos.d
 install -m 0755 tizen-ivi.repo %{buildroot}/etc/zypp/repos.d
-install -m 0755 tizen-non-oss.repo %{buildroot}/etc/zypp/repos.d
 
 %post
 
