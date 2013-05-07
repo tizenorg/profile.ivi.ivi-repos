@@ -1,18 +1,18 @@
 [tizen-ivi]
 name=tizen-ivi
 type=rpm-md
-baseurl=https://download.tizen.org/snapshots/2.0alpha/ivi-wayland/latest/repos/ivi-wayland/ia32/packages/?ssl_verify=no
+baseurl=https://download.tizen.org/snapshots/2.0alpha/ivi/latest/repos/ivi-wayland/ia32/packages/?ssl_verify=no
 gpgcheck=0
 enabled=1
 
 [tizen-ivi-debuginfo]
 name=tizen-ivi-debuginfo
-baseurl=https://download.tizen.org/snapshots/2.0alpha/ivi-wayland/latest/repos/ivi-wayland/ia32/debug/?ssl_verify=no
+baseurl=https://download.tizen.org/snapshots/2.0alpha/ivi/latest/repos/ivi-wayland/ia32/debug/?ssl_verify=no
 gpgcheck=0
 enabled=0
 
 [tizen-ivi-source]
 name=tizen-ivi-source
-baseurl=https://download.tizen.org/snapshots/2.0alpha/ivi-wayland/latest/repos/ivi-wayland/source/?ssl_verify=no
+baseurl=https://download.tizen.org/snapshots/2.0alpha/ivi/latest/repos/ivi-wayland/source/?ssl_verify=no
 gpgcheck=0
 enabled=0

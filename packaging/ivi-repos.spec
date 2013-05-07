@@ -1,5 +1,5 @@
 Name:       ivi-repos
-Summary:    Tizen 2.0alpha IVI Repos for Wayland
+Summary:    Tizen 2.0alpha IVI Repos 
 Version:    1
 Release:    1
 Group:      System/Libraries
