@@ -7,12 +7,12 @@ enabled=1
 
 [tizen-base-debuginfo]
 name=tizen-base-debuginfo
-baseurl=https://download.tizen.org/snapshots/2.0/ivi-wayland/latest/repos/base/ia32/debug/?ssl_verify=no
+baseurl=https://download.tizen.org/snapshots/2.0alpha/ivi-wayland/latest/repos/base/ia32/debug/?ssl_verify=no
 gpgcheck=0
 enabled=0
 
 [tizen-base-source]
 name=tizen-base-source
-baseurl=https://download.tizen.org/snapshots/2.0/ivi-wayland/latest/repos/base/source/?ssl_verify=no
+baseurl=https://download.tizen.org/snapshots/2.0alpha/ivi-wayland/latest/repos/base/source/?ssl_verify=no
 gpgcheck=0
 enabled=0
