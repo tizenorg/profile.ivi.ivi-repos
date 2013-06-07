@@ -1,18 +1,18 @@
-[tizen-ivi]
-name=tizen-ivi
+[ivi-snapshot]
+name=ivi-snapshot
 type=rpm-md
 baseurl=https://download.tizen.org/snapshots/tizen/ivi/latest/repos/ivi/ia32/packages/?ssl_verify=no
 gpgcheck=0
 enabled=1
 
-[tizen-ivi-debuginfo]
-name=tizen-ivi-debuginfo
+[ivi-snapshot-debuginfo]
+name=ivi-snapshot-debuginfo
 baseurl=http://download.tizen.org/snapshots/tizen/ivi/latest/repos/ivi/ia32/debug/?ssl_verify=no
 gpgcheck=0
 enabled=0
 
-[tizen-ivi-source]
-name=tizen-ivi-source
+[ivi-snapshot-source]
+name=ivi-snapshot-source
 baseurl=http://download.tizen.org/snapshots/tizen/ivi/latest/repos/ivi/source/?ssl_verify=no
 gpgcheck=0
 enabled=0

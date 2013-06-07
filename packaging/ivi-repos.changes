@@ -1,3 +1,7 @@
+* Fri Jun  7 22:26:02 UTC 2013 - tracy.graydon@intel.com
+- Add a repo file for daily images. Disabled by default.
+- renamed the repo files and repos  
+
 * Fri Jun  7 20:45:04 UTC 2013 - tracy.graydon@intel.com
 - Set up the repo file for Tizen IVI 
 - Fix a couple of rpmlint issues
