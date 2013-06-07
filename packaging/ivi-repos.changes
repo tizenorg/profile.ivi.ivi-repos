@@ -1,3 +1,3 @@
 * Fri Jun  7 20:45:04 UTC 2013 - tracy.graydon@intel.com
 - Set up the repo file for Tizen IVI 
-
+- Fix a couple of rpmlint issues
