@@ -1,5 +1,5 @@
 Name:       ivi-repos
-Summary:    Tizen 2.0 IVI Repos
+Summary:    Tizen IVI Repos
 Version:    1
 Release:    1
 Group:      System/Libraries
@@ -18,7 +18,6 @@ This package installs the .repo files for Tizen 2.0 IVI images
 %install
 rm -rf %{buildroot}
 install -d %{buildroot}/etc/zypp/repos.d
-install -m 0755 tizen-base.repo %{buildroot}/etc/zypp/repos.d
 install -m 0755 tizen-ivi.repo %{buildroot}/etc/zypp/repos.d
 
 %post
