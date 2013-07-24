@@ -1,3 +1,6 @@
+* Wed Jul 24 20:46:25 UTC 2013 - tracy.graydon@intel.com
+- TIVI-1455: make http be https. Typo fixing 
+
 * Fri Jun  7 22:26:02 UTC 2013 - tracy.graydon@intel.com
 - Add a repo file for daily images. Disabled by default.
 - renamed the repo files and repos  
