@@ -3,7 +3,7 @@ name=ivi-snapshot
 type=rpm-md
 baseurl=https://download.tizen.org/snapshots/tizen/ivi/latest/repos/ivi/ia32/packages/?ssl_verify=no
 gpgcheck=0
-enabled=1
+enabled=0
 
 [ivi-snapshot-debuginfo]
 name=ivi-snapshot-debuginfo
