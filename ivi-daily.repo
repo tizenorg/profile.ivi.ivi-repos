@@ -1,18 +1,18 @@
 [ivi-daily]
 name=ivi-daily
 type=rpm-md
-baseurl=https://download.tizen.org/releases/daily/tizen/ivi/latest/repos/ivi/ia32/packages/?ssl_verify=no
+baseurl=https://download.tizen.org/releases/daily/tizen/ivi/ivi/latest/repos/ivi/ia32/packages/?ssl_verify=no
 gpgcheck=0
 enabled=1
 
 [ivi-daily-debuginfo]
 name=ivi-daily-debuginfo
-baseurl=https://download.tizen.org/releases/daily/tizen/ivi/latest/repos/ivi/ia32/debug/?ssl_verify=no
+baseurl=https://download.tizen.org/releases/daily/tizen/ivi/ivi/latest/repos/ivi/ia32/debug/?ssl_verify=no
 gpgcheck=0
 enabled=0
 
 [ivi-daily-source]
 name=ivi-daily-source
-baseurl=https://download.tizen.org/releases/daily/tizen/ivi/latest/repos/ivi/source/?ssl_verify=no
+baseurl=https://download.tizen.org/releases/daily/tizen/ivi/ivi/latest/repos/ivi/source/?ssl_verify=no
 gpgcheck=0
 enabled=0
