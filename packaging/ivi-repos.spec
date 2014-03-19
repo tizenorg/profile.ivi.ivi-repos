@@ -25,5 +25,5 @@ install -m 0644 ivi-release.repo %{buildroot}/etc/zypp/repos.d
 %files
 %defattr(-,root,root,-)
 %config /etc/zypp/repos.d/ivi-snapshot.repo
-%config /etc/zypp/repos.d/ivi-daily.repo
+%config /etc/zypp/repos.d/ivi-release.repo
 
