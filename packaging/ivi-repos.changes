@@ -1,3 +1,6 @@
+* Fri Jul 11 06:55:08 UTC 2014 - ning.w.wang@intel.com
+- Update the repo url to reflect path change
+
 * Mon Jun 23 2014 Markus Lehtonen <markus.lehtonen@linux.intel.com> accepted/tizen/ivi/release/20140312.122825-0-g238481e
 - Update repo URLs to reflect post-boss directory structure
   (Closes: TC-1198)
