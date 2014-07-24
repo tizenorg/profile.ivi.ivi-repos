@@ -1,3 +1,6 @@
+* Thu Jul 24 2014 Markus Lehtonen <markus.lehtonen@linux.intel.com> accepted/tizen/ivi/20140623.140249-1-g7bad524
+- Change repo URLs to point to M14.2 milestone repos (Fixes: TC-1435)
+
 * Mon Jun 23 2014 Markus Lehtonen <markus.lehtonen@linux.intel.com> accepted/tizen/ivi/release/20140312.122825-0-g238481e
 - Update repo URLs to reflect post-boss directory structure
   (Closes: TC-1198)
