@@ -1,3 +1,6 @@
+* Thu Jul 24 2014 Markus Lehtonen <markus.lehtonen@linux.intel.com> accepted/tizen/3.0.m14.2/ivi/20140724.125825-1-g50da96d
+- Re-introduce ivi-daily repo
+
 * Thu Jul 24 2014 Markus Lehtonen <markus.lehtonen@linux.intel.com> accepted/tizen/ivi/20140623.140249-1-g7bad524
 - Change repo URLs to point to M14.2 milestone repos (Fixes: TC-1435)
 

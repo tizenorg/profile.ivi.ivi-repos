@@ -1,6 +1,6 @@
 Name:       ivi-repos
 Summary:    Tizen IVI Repos
-Version:    5
+Version:    6
 Release:    1
 Group:      Base/Configuration
 BuildArch:  noarch
@@ -20,10 +20,12 @@ This package installs the .repo files for Tizen IVI images
 rm -rf %{buildroot}
 install -d %{buildroot}/etc/zypp/repos.d
 install -m 0644 ivi-snapshot.repo %{buildroot}/etc/zypp/repos.d
+install -m 0644 ivi-daily.repo %{buildroot}/etc/zypp/repos.d
 install -m 0644 ivi-milestone.repo %{buildroot}/etc/zypp/repos.d
 
 %files
 %defattr(-,root,root,-)
 %config /etc/zypp/repos.d/ivi-snapshot.repo
+%config /etc/zypp/repos.d/ivi-daily.repo
 %config /etc/zypp/repos.d/ivi-milestone.repo
 
