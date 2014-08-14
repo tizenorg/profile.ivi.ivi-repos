@@ -2,7 +2,7 @@
 
 Name:       ivi-repos
 Summary:    Tizen IVI Repos
-Version:    5
+Version:    6
 Release:    1
 Group:      Base/Configuration
 BuildArch:  noarch
