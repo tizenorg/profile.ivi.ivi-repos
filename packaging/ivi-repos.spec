@@ -2,10 +2,9 @@
 
 Name:       ivi-repos
 Summary:    Tizen IVI Repos
-Version:    6
-Release:    1
+Version:    7
+Release:    0
 Group:      Base/Configuration
-BuildArch:  noarch
 License:    GPL-2.0
 URL:        http://www.tizen.org
 Source0:    %{name}-%{version}.tar.bz2
@@ -25,8 +24,13 @@ install -d %{buildroot}/etc/zypp/repos.d
 install -m 0644 ivi-emul-snapshot.repo %{buildroot}/etc/zypp/repos.d
 install -m 0644 ivi-emul-daily.repo %{buildroot}/etc/zypp/repos.d
 %else
+%ifarch %arm
+install -m 0644 ivi-arm-snapshot.repo %{buildroot}/etc/zypp/repos.d
+install -m 0644 ivi-arm-daily.repo %{buildroot}/etc/zypp/repos.d
+%else
 install -m 0644 ivi-snapshot.repo %{buildroot}/etc/zypp/repos.d
 install -m 0644 ivi-daily.repo %{buildroot}/etc/zypp/repos.d 
+%endif
 %endif
 
 %files
@@ -35,7 +39,12 @@ install -m 0644 ivi-daily.repo %{buildroot}/etc/zypp/repos.d
 %config /etc/zypp/repos.d/ivi-emul-snapshot.repo
 %config /etc/zypp/repos.d/ivi-emul-daily.repo
 %else
+%ifarch %arm
+%config /etc/zypp/repos.d/ivi-arm-snapshot.repo
+%config /etc/zypp/repos.d/ivi-arm-daily.repo
+%else
 %config /etc/zypp/repos.d/ivi-snapshot.repo
 %config /etc/zypp/repos.d/ivi-daily.repo
+%endif
 %endif
 
