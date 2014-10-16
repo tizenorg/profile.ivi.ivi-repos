@@ -1,3 +1,7 @@
+* Thu Oct 17 2014 Ed Bartosh <eduard.bartosh@intel.com>
+- Change repo URLs to point to M14.3 milestone path
+- Added milestone release repos
+
 * Thu Aug 14 18:31:08 UTC 2014 - alice.liu@intel.com
 - Update the emulator repo url to reflect the current path
 
