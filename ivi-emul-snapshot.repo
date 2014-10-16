@@ -1,18 +1,18 @@
 [ivi-snapshot]
 name=ivi-snapshot
 type=rpm-md
-baseurl=https://download.tizen.org/snapshots/tizen/ivi/latest/repos/emulator/packages/
+baseurl=https://download.tizen.org/snapshots/tizen/ivi-3.0.m14.3/latest/repos/emulator/packages/
 gpgcheck=0
 enabled=0
 
 [ivi-snapshot-debuginfo]
 name=ivi-snapshot-debuginfo
-baseurl=https://download.tizen.org/snapshots/tizen/ivi/latest/repos/emulator/debug/
+baseurl=https://download.tizen.org/snapshots/tizen/ivi-3.0.m14.3/latest/repos/emulator/debug/
 gpgcheck=0
 enabled=0
 
 [ivi-snapshot-source]
 name=ivi-snapshot-source
-baseurl=https://download.tizen.org/snapshots/tizen/ivi/latest/repos/emulator/source/
+baseurl=https://download.tizen.org/snapshots/tizen/ivi-3.0.m14.3/latest/repos/emulator/source/
 gpgcheck=0
 enabled=0

@@ -2,7 +2,7 @@
 
 Name:       ivi-repos
 Summary:    Tizen IVI Repos
-Version:    6
+Version:    8
 Release:    1
 Group:      Base/Configuration
 BuildArch:  noarch
@@ -24,9 +24,11 @@ install -d %{buildroot}/etc/zypp/repos.d
 %if %{with emulator}
 install -m 0644 ivi-emul-snapshot.repo %{buildroot}/etc/zypp/repos.d
 install -m 0644 ivi-emul-daily.repo %{buildroot}/etc/zypp/repos.d
+install -m 0644 ivi-emul-milestone.repo %{buildroot}/etc/zypp/repos.d
 %else
 install -m 0644 ivi-snapshot.repo %{buildroot}/etc/zypp/repos.d
-install -m 0644 ivi-daily.repo %{buildroot}/etc/zypp/repos.d 
+install -m 0644 ivi-daily.repo %{buildroot}/etc/zypp/repos.d
+install -m 0644 ivi-milestone.repo %{buildroot}/etc/zypp/repos.d
 %endif
 
 %files
@@ -34,8 +36,10 @@ install -m 0644 ivi-daily.repo %{buildroot}/etc/zypp/repos.d
 %if %{with emulator}
 %config /etc/zypp/repos.d/ivi-emul-snapshot.repo
 %config /etc/zypp/repos.d/ivi-emul-daily.repo
+%config /etc/zypp/repos.d/ivi-emul-milestone.repo
 %else
 %config /etc/zypp/repos.d/ivi-snapshot.repo
 %config /etc/zypp/repos.d/ivi-daily.repo
+%config /etc/zypp/repos.d/ivi-milestone.repo
 %endif
 
