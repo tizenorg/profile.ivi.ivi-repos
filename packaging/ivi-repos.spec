@@ -22,20 +22,10 @@ This package installs the .repo files for Tizen IVI images
 rm -rf %{buildroot}
 install -d %{buildroot}/etc/zypp/repos.d
 %if %{with emulator}
-install -m 0644 ivi-emul-snapshot.repo %{buildroot}/etc/zypp/repos.d
-install -m 0644 ivi-emul-daily.repo %{buildroot}/etc/zypp/repos.d
-%else
-install -m 0644 ivi-snapshot.repo %{buildroot}/etc/zypp/repos.d
-install -m 0644 ivi-daily.repo %{buildroot}/etc/zypp/repos.d 
+type='emul-'
 %endif
+install -m 0644 ivi-$type*.repo %{buildroot}/etc/zypp/repos.d
 
 %files
 %defattr(-,root,root,-)
-%if %{with emulator}
-%config /etc/zypp/repos.d/ivi-emul-snapshot.repo
-%config /etc/zypp/repos.d/ivi-emul-daily.repo
-%else
-%config /etc/zypp/repos.d/ivi-snapshot.repo
-%config /etc/zypp/repos.d/ivi-daily.repo
-%endif
-
+%config /etc/zypp/repos.d/*.repo
