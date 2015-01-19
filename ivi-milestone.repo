@@ -3,7 +3,7 @@ name=ivi-milestone
 type=rpm-md
 baseurl=https://download.tizen.org/releases/milestone/tizen/ivi-3.0/latest/repos/atom/packages/
 gpgcheck=0
-enabled=0
+enabled=1
 
 [ivi-milestone-debuginfo]
 name=ivi-milestone-debuginfo
@@ -22,7 +22,7 @@ name=ivi64-milestone
 type=rpm-md
 baseurl=https://download.tizen.org/releases/milestone/tizen/ivi-3.0/latest/repos/atom64/packages/
 gpgcheck=0
-enabled=0
+enabled=1
 
 [ivi64-milestone-debuginfo]
 name=ivi64-milestone-debuginfo
