@@ -1,37 +1,37 @@
 [ivi-snapshot]
 name=ivi-snapshot
 type=rpm-md
-baseurl=https://download.tizen.org/snapshots/tizen/ivi/latest/repos/atom/packages/
+baseurl=https://download.tizen.org/snapshots/tizen/ivi-3.0/latest/repos/atom/packages/
 gpgcheck=0
 enabled=0
 
 [ivi-snapshot-debuginfo]
 name=ivi-snapshot-debuginfo
-baseurl=https://download.tizen.org/snapshots/tizen/ivi/latest/repos/atom/debug/
+baseurl=https://download.tizen.org/snapshots/tizen/ivi-3.0/latest/repos/atom/debug/
 gpgcheck=0
 enabled=0
 
 [ivi-snapshot-source]
 name=ivi-snapshot-source
-baseurl=https://download.tizen.org/snapshots/tizen/ivi/latest/repos/atom/source/
+baseurl=https://download.tizen.org/snapshots/tizen/ivi-3.0/latest/repos/atom/source/
 gpgcheck=0
 enabled=0
 
 [ivi64-snapshot]
 name=ivi64-snapshot
 type=rpm-md
-baseurl=https://download.tizen.org/snapshots/tizen/ivi/latest/repos/atom64/packages/
+baseurl=https://download.tizen.org/snapshots/tizen/ivi-3.0/latest/repos/atom64/packages/
 gpgcheck=0
 enabled=0
 
 [ivi64-snapshot-debuginfo]
 name=ivi64-snapshot-debuginfo
-baseurl=https://download.tizen.org/snapshots/tizen/ivi/latest/repos/atom64/debug/
+baseurl=https://download.tizen.org/snapshots/tizen/ivi-3.0/latest/repos/atom64/debug/
 gpgcheck=0
 enabled=0
 
 [ivi64-snapshot-source]
 name=ivi64-snapshot-source
-baseurl=https://download.tizen.org/snapshots/tizen/ivi/latest/repos/atom64/source/
+baseurl=https://download.tizen.org/snapshots/tizen/ivi-3.0/latest/repos/atom64/source/
 gpgcheck=0
 enabled=0

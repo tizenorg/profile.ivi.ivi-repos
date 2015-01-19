@@ -2,9 +2,9 @@
 
 Name:       ivi-repos
 Summary:    Tizen IVI Repos
-Version:    7
+Version:    8
 Release:    1
-Group:      Base/Configuration
+Group:      Automotive/Configuration
 BuildArch:  noarch
 License:    GPL-2.0
 URL:        http://www.tizen.org
