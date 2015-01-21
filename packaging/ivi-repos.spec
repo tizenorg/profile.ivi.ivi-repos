@@ -24,7 +24,10 @@ install -d %{buildroot}/etc/zypp/repos.d
 %if %{with emulator}
 type='emul-'
 %endif
-install -m 0644 ivi-$type*.repo %{buildroot}/etc/zypp/repos.d
+for release in snapshot daily milestone;
+do
+install -m 0644 ivi-$type$release.repo %{buildroot}/etc/zypp/repos.d
+done
 
 %files
 %defattr(-,root,root,-)
